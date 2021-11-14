@@ -4,10 +4,14 @@ const  str = prompt("", "");
 
 const products =str.split(",");
 
+products.sort();
+
 console.log(products.join(';'));
 
 
-//rrr;ggh;hj;yhg;ghgf;hh;
+//xxxxx,aaaaa,ooooo
+
+//aaaaa;ooooo;xxxxx
 
 
 
