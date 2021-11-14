@@ -1,18 +1,17 @@
 "use strict";
 
-const  str = prompt("", "");
+const arr = [2,13,26,8,10];
 
-const products =str.split(",");
+arr.sort();
 
-products.sort();
+console.log(arr);
 
-console.log(products.join(';'));
-
-
-//xxxxx,aaaaa,ooooo
-
-//aaaaa;ooooo;xxxxx
-
-
+// (5) [10, 13, 2, 26, 8]
+// 0: 10
+// 1: 13
+// 2: 2
+// 3: 26
+// 4: 8
+// length: 5
 
 
